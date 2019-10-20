@@ -5,6 +5,7 @@ typedef struct{
     struct AdjListNode* next;
 }AdjListNode;
 typedef struct{
+    int nodem;
     struct AdjListNode *head;
 }AdjList;
 typedef struct{
